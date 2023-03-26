@@ -1,0 +1,35 @@
+Polls App
+This is a simple Django web application that allows users to vote on polls.
+
+Requirements
+Python 3.5 or later
+Django 2.2 or later
+Installation
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/<username>/<repository>.git
+Install the requirements:
+Copy code
+pip install -r requirements.txt
+Run the migrations:
+Copy code
+python manage.py migrate
+Start the development server:
+Copy code
+python manage.py runserver
+Usage
+Home Page
+The home page of the app displays a list of the 5 most recently published polls. Users can click on a poll to view its details and vote.
+
+Poll Details Page
+The poll details page displays the question and its choices. If the user is not logged in, they will be prompted to log in to vote. Once logged in, the user can select a choice and submit their vote.
+
+Results Page
+The results page displays the total number of votes for each choice and the percentage of votes for each choice.
+
+Contributing
+If you want to contribute to this project, feel free to submit a pull request. All contributions are welcome!
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
